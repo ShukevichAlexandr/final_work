@@ -75,6 +75,7 @@ p.text-statistic {
     gap: 24px;
     flex-direction: row;
     width: 1800px;
+    max-height: 100px;
 }
 
 .notes-list > li {
