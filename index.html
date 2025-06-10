@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app"></div>
+    <header class="header">
+        <div class="header-wrapper">
+            <div class="logo">
+                <a href="">
+                    <img class="logo-img" src="icons/Vector_Left.png" alt="">
+                </a>
+                
+                <p class="logo-link"><a href="">NOTES</a></p>    
+            </div>
+            
+            <div class="statistic">
+
+            <button class="filtred">
+
+            </button>
+                <!-- <a href="" class="filtred"> -->
+                    <!-- <img src="icons/Vector.png" alt=""> -->
+                <!-- </a> -->
+                <p class="text-statistic">Заметки</p>
+            </div>
+        
+        </div>
+
+    </header>
+
+
+        <main>
+            <form class="note-form" name="notes">
+            <div>
+
+                <div class="title-name-note">
+                    <p>Название заметки</p>
+                </div>
+                
+                        <input class="name-note"
+                        type="text"
+                        class="input"
+                        placeholder="Введите название темы"
+                        name="title"
+                        >
+            </div>
+            
+
+                
+    
+    
+                <div class="bot-container">
+<div>
+    <div class="title-description-note">
+        <p>Описание новой заметки</p>
+    </div>
+    
+<textarea class="description-note" id="" placeholder="Введите содержимое темы"></textarea>
+
+
+
+    <!-- <input class="description-note"
+    type="text"
+    placeholder="Введите содержимое темы"
+    name="text"> -->
+</div>
+
+
+
+    <div class="color-container">
+<div class="color-title">
+    <p>Выбери цвет заметки</p>
+</div>
+        
+
+<ul class="colors-items">
+    <li class="circle purple" data-color="purple"></li>
+    <li class="circle red" data-color="red"></li>
+    <li class="circle blue" data-color="blue"></li>
+    <li class="circle green" data-color="green"></li>
+    <li class="circle yellow selected" data-color="yellow"></li>
+</ul>
+
+        <button class="create_elem"><img src="icons/plus-svgrepo-com 1.png" alt="">  Добавить заметку</button>
+
+    </div>
+            
+                </div>
+            
+            </form>
+    
+
+                <div class="filter-box">
+                    <button class="filter-button-unliked"></button>
+                    <li class="unliked">Показать только избранные заметки</li>
+                            </div>
+                    
+                            <ul class="notes-list">
+                            
+                            </ul>
+                            
+                    
+                            <div class="messages-box-worning">   <!-- Сюда будут рендериться системные сообщения -->
+                                <div class="worning-div-container">
+                                    <div class="worning-mesage">
+                                        <img class="img-Worning" alt="">
+                                        <p class="worning-text">
+                                            <!-- Название заметки не может содержать более 50 символов -->
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="done-div-container">
+                                    <div class="done-mesage">
+                                        <img class="img-done" alt="">
+                                        <p class="done-text">
+                                            <!-- заметка создана -->
+                                        </p>
+                                    </div>
+                                </div>
+
+                                
+                                <!-- <p class="message-text" id="system-message"><img src="icons/warning.png" alt="">    Название заметки не может содержать более 50 символов</p> -->
+
+                            </div>
+
+            
+        </main>
+        <script src="main.js"></script>
+
+
+    
+    
+</body>
+
+</html>
