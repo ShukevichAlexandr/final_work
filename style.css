@@ -1385,13 +1385,17 @@ img.img-done{
             display: flex;
             flex-direction: row;
             align-items: center;
-            gap: 100px;
             padding: 11px;
             border: solid 1px rgb(181, 187, 192);
             height: 50px;
 
-    max-width: auto;
+    max-width: 380px;
         }
+
+        div.logo{
+    display: flex;
+    flex-direction: row;
+}
 
         .note-form{
             position: absolute;
