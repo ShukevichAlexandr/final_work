@@ -1395,6 +1395,7 @@ img.img-done{
         div.logo{
     display: flex;
     flex-direction: row;
+    margin: 0;
 }
 
         .note-form{
