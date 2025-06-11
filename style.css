@@ -1372,3 +1372,57 @@ img.img-done{
             gap: 15px;
         }
     }
+
+
+    @media screen and (max-width: 470px)  {
+        .header-wrapper{
+            display: flex;
+            flex-direction: row;
+            margin: 0 40px 0 5px;
+            padding: 11px;
+            border: solid 1px rgb(181, 187, 192);
+            height: 50px;
+            gap: 35%;
+            max-width: 400px;
+        }
+
+        .note-form{
+            position: absolute;
+            top: 300px;
+            left: 205px;
+            transform: translate(-50%, -50%);
+            width: 350PX;
+            height: 340px;
+            gap: 30px;
+            background-color: #fff;
+            display: flex; 
+            flex-direction: column;
+            box-shadow: 0px 5px 10px 3px  rgb(0, 0, 0, 0.2);
+        }
+
+        .notes-list{
+            position: absolute;
+            top: 630px;
+            left: 180px;
+            transform: translate(-50%, -50%);
+            display: flex;
+            padding: 10px 30px ;
+            flex-wrap: wrap;
+            gap: 30px;
+            flex-direction: row;
+            width: 360px;
+            max-height: 100px;
+        }
+
+        .filter-box{
+            display: flex;
+            flex-direction: row;
+            margin-top: 440px;
+            margin-left: 80px;
+            gap: 15px;
+        }
+
+        .colors-info{
+            margin-left: 20px;
+        }
+    }
