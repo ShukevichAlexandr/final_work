@@ -1381,11 +1381,11 @@ img.img-done{
 
     @media screen and (max-width: 470px)  {
         .header-wrapper{
-                        margin: 0 10px 0 10px;
+            margin: 0 10px 0 10px;
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
             align-items: center;
+            gap: 70px;
             padding: 11px;
             border: solid 1px rgb(181, 187, 192);
             height: 50px;
@@ -1396,7 +1396,7 @@ img.img-done{
         .note-form{
             position: absolute;
             top: 300px;
-            left: 202px;
+            left: 195px;
             transform: translate(-50%, -50%);
             width: 350PX;
             height: 340px;
@@ -1410,7 +1410,7 @@ img.img-done{
         .notes-list{
             position: absolute;
             top: 630px;
-            left: 175px;
+            left: 170px;
             transform: translate(-50%, -50%);
             display: flex;
             padding: 10px 30px ;
@@ -1425,8 +1425,8 @@ img.img-done{
             display: flex;
             flex-direction: row;
             margin-top: 440px;
-            margin-left: 10px;
-            gap: 15px;
+            margin-left: 35px;
+
         }
 
         .colors-info{
