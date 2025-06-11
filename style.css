@@ -1425,7 +1425,7 @@ img.img-done{
             display: flex;
             flex-direction: row;
             margin-top: 440px;
-            margin-left: 25px;
+            margin-left: 10px;
             gap: 15px;
         }
 
