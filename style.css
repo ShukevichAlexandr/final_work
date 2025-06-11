@@ -1385,7 +1385,7 @@ img.img-done{
             display: flex;
             flex-direction: row;
             align-items: center;
-            gap: 50px;
+            gap: 20px;
             padding: 11px;
             border: solid 1px rgb(181, 187, 192);
             height: 50px;
